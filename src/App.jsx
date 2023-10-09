@@ -8,9 +8,12 @@ function App() {
   return (
     <>
       <div className='w-4/5 mx-auto pt-10 '>
+        <Header></Header>
+        
+        <div>
+          <Blogs></Blogs>
 
-      <Header></Header>
-      <Blogs></Blogs>
+        </div>
       </div>
     </>
   )
