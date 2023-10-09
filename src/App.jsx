@@ -1,14 +1,17 @@
 
 import './App.css'
-
+import Blogs from './components/Blogs/Blogs'
+import Header from './components/Header/Header'
 function App() {
 
 
   return (
     <>
-      
-      <h1 className='text-2xl font-bold'>Essential Hub</h1>
-      
+      <div className='w-4/5 mx-auto pt-10 '>
+
+      <Header></Header>
+      <Blogs></Blogs>
+      </div>
     </>
   )
 }
